@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'slim'
 require 'sass'
-require './student'
+require './student.rb'
 
 configure do
   enable :sessions
