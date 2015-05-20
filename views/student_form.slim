@@ -1,0 +1,16 @@
+label for="first_name" First Name:
+input#first_name type="text" name="student[first_name]" value="#{@student.first_name}"
+
+label for="last_name" Last Name:
+input#last_name type="text" name="student[last_name]" value="#{@student.last_name}"
+
+label for="phone_number" Phone Number(xxx-xxx-xxxx):
+input#phone_number type="text" name="student[phone_number]" value="#{@student.phone_number}"
+
+label for="age" Age:
+input#age type="number" name="student[age]" value="#{@student.age}"
+
+label for="address" Address:
+textarea#address name="student[address]" == @student.address
+
+input type="submit" value="Save Student Details"
